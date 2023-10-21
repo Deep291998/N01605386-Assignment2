@@ -33,10 +33,7 @@ namespace webapi_ass2.Controllers
 
                 // Calculate the final score by adding the base score and the bonus
                 int finalScore = baseScore + bonus;
-
-                // Ensure the final score is non-negative
-                
-
+                              
                 return finalScore;
             }
         }
