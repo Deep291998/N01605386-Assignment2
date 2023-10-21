@@ -42,7 +42,7 @@ namespace webapi_ass2.Controllers
             return ways;
         }
 
-            // Function to count the number of ways to roll a total of 10 with two dice
+            
             
         }
     }
