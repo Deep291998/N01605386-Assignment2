@@ -1,0 +1,28 @@
+﻿
+    
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deliv-e-droid Game</title>
+</head>
+<body>
+    <h1>Deliv-e-droid Game</h1>
+    @using (Html.BeginForm("Calculate", "Game", FormMethod.Post))
+    {
+<label>Number of Packages Delivered:</label>
+                @Html.TextBoxFor(m => m.PackagesDelivered)
+                                <br />
+                                                <label>Number of Collisions with Obstacles:</label>
+                                                                @Html.TextBoxFor(m => m.CollisionsWithObstacles)
+                                                                                <br />
+                                                                                                <input type="submit" value="Calculate Score" />}
+
+    @if (Model.FinalScore != null)
+    {
+<h2>Final Score: @Model.FinalScore</h2>}
+</body>
+</html>
+
+
+<h2>index</h2>
+
